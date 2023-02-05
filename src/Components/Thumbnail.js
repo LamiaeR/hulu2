@@ -2,7 +2,6 @@ import Image from "next/image";
 // import ThumbUpIcon from "./ThumbUpIcon";
 // import { ThumbUpIcon } from "@heroicons/react/24/outline";
 function Thumbnail({ result }) {
-  console.log(result);
   const BASE_URL = "https://image.tmdb.org/t/p/original";
   return (
     <div>
